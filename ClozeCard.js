@@ -1,5 +1,5 @@
 var inquirer = require("inquirer");
-//module.exports = ClozeCard;
+module.exports = ClozeCard;
 //Make sure all running functions are printed properly onto console.
 function Cloze(text, cloze){
 	this.text = text; //text applies to any text in the card, not just whatever text remains after cloze deletion.
